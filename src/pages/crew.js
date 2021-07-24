@@ -35,6 +35,9 @@ const Crew = (props) => (
                         He also provided his own piano playing and voice overs.
                         This project is something Simon wants to expand into a
                         filmed documentary and eventually a book.</p>
+                </div>
+                <br />
+                <div className="inner">
                     <p>
                         <span className="image right">
                             <img src={evan_howell_headshot} alt="Evan Howell" />

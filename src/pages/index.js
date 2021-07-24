@@ -23,7 +23,7 @@ class HomeIndex extends React.Component {
             <article>
               <Link
                 aria-label="Link to Podcast Crew"
-                to="/crew"
+                to="/crew/"
                 className="link primary"
               >
                 <header className="major">
@@ -37,7 +37,7 @@ class HomeIndex extends React.Component {
             <article>
               <Link
                 aria-label="Link to Podcast Page"
-                to="/podcast"
+                to="/podcast/"
                 className="link primary"
               >
                 <header className="major">
@@ -51,7 +51,7 @@ class HomeIndex extends React.Component {
             <article>
               <Link
                 aria-label="Link to Soundtrack Album"
-                to="/soundtrack"
+                to="/soundtrack/"
                 className="link primary"
               >
                 <header className="major">
@@ -66,7 +66,7 @@ class HomeIndex extends React.Component {
             <article>
               <Link
                 aria-label="Link to About / Contact"
-                to="/about-contact"
+                to="/about-contact/"
                 className="link primary"
               >
                 <header className="major">
@@ -80,7 +80,7 @@ class HomeIndex extends React.Component {
             <article>
               <Link
                 aria-label="Link to Photos"
-                to="/photos"
+                to="/photos/"
                 className="link primary"
               >
                 <header className="major">
@@ -93,7 +93,7 @@ class HomeIndex extends React.Component {
             <article>
               <Link
                 aria-label="Link to Media Releases"
-                to="/media-releases"
+                to="/media-releases/"
                 className="link primary"
               >
                 <header className="major">
