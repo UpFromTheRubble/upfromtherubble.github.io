@@ -18,6 +18,9 @@ const Podcast = (props) => (
                         <h1>Podcast</h1>
                     </header>
                     <p><a href="/podcast-episode-1/" alt="Podcast Episode 1">Episode 1</a></p>
+                    <p><a href="/podcast-episode-2/" alt="Podcast Episode 1">Episode 2</a></p>
+                    <p><a href="/podcast-episode-3/" alt="Podcast Episode 1">Episode 3</a></p>
+                    <p><a href="/podcast-episode-4/" alt="Podcast Episode 1">Episode 4</a></p>
                 </div>
             </section>
         </div>
