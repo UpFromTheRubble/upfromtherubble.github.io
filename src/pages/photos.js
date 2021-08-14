@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import Gallery from '../components/Gallery'
 
 const Photos = (props) => (
     <Layout>
@@ -16,6 +17,7 @@ const Photos = (props) => (
                     <header className="major">
                         <h1>Photos</h1>
                     </header>
+                    <Gallery />
                 </div>
             </section>
         </div>
