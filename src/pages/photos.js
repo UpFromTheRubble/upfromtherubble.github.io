@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Gallery from '../components/Gallery'
+import { Grid } from '@material-ui/core'
 
 const Photos = (props) => (
     <Layout>
@@ -18,6 +19,10 @@ const Photos = (props) => (
                         <h1>Photos</h1>
                     </header>
                     <Gallery />
+                    <Grid container spacing={24} justify="center">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/Y_WuOJvLUeA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/dUa1NpIhYJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Grid>
                 </div>
             </section>
         </div>

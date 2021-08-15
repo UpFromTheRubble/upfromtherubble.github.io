@@ -17,6 +17,7 @@ const Podcast = (props) => (
                     <header className="major">
                         <h1>Podcast</h1>
                     </header>
+                    <p><iframe src="https://open.spotify.com/embed/episode/6iRwfaUAXYrxgVxTEJmEGp?theme=0" width="100%" height="152" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>
                     <p><a href="/podcast-episode-1/" alt="Podcast Episode 1">Episode 1</a></p>
                     <p><a href="/podcast-episode-2/" alt="Podcast Episode 1">Episode 2</a></p>
                     <p><a href="/podcast-episode-3/" alt="Podcast Episode 1">Episode 3</a></p>

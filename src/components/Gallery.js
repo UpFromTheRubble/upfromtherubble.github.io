@@ -46,15 +46,13 @@ const GalleryComponent = props => {
           <Grid container spacing={24} justify="center">
             <ThumbGrid images={images} handleOpen={handleOpen} />
             {showLightbox && selectedImage !== null && (
-              <div style={{padding: 100}}>
-                <LightBox
-                  images={images}
-                  handleClose={handleClose}
-                  handleNextRequest={handleNextRequest}
-                  handlePrevRequest={handlePrevRequest}
-                  selectedImage={selectedImage}
-                />
-              </div>
+              <LightBox
+                images={images}
+                handleClose={handleClose}
+                handleNextRequest={handleNextRequest}
+                handlePrevRequest={handlePrevRequest}
+                selectedImage={selectedImage}
+              />
             )}
           </Grid>
         )

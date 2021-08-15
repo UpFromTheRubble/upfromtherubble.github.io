@@ -15,6 +15,7 @@ const PodcastEpisode1 = (props) => (
                     <header className="major">
                         <h1>Podcast Episode 1</h1>
                     </header>
+                    <p><iframe src="https://open.spotify.com/embed/episode/26Xre0lJyvJDqIfWTWT8yO" width="100%" height="152" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>
                     <p>
                         <b>Manfred:</b> The kids across the road used to call our kids Nazis,
                         because we were German and we had a German name like Reich, like the

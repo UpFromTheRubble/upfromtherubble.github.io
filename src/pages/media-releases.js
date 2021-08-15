@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import MarketingGallery from '../components/MarketingGallery'
 
 const MediaReleases = (props) => (
     <Layout>
@@ -17,6 +18,15 @@ const MediaReleases = (props) => (
                     <header className="major">
                         <h1>Media Releases</h1>
                     </header>
+                    <iframe
+                      width="100%"
+                      height="166"
+                      scrolling="no"
+                      frameborder="no"
+                      allow="autoplay"
+                      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1103276980&color=%23746c84&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+                    </iframe>
+                    <MarketingGallery />
                 </div>
             </section>
         </div>
