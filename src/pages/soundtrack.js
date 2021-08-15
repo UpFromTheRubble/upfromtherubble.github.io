@@ -18,6 +18,7 @@ const Soundtrack = (props) => (
                     <header className="major">
                         <h1>Soundtrack Album</h1>
                     </header>
+                    <iframe src="https://open.spotify.com/embed/album/1RUfwwH67cfiwoOs5k64DB" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </section>
         </div>
