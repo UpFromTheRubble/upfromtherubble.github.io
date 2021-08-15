@@ -9,15 +9,9 @@ const NonStretchedImage = props => {
       style: {
         ...(props.style || {}),
         height: '100%',
-        // maxWidth: props.fluid.presentationWidth,
-        // height: window.innerHeight - 50,
-        // width: "auto",
-        // margin: "50px auto 0", // Used to center the image
       },
     }
   }
-
-  console.log(props)
 
   return <Img {...normalizedProps} imgStyle={{ objectFit: 'contain', height: '100%' }}/>
 }
